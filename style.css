@@ -1,0 +1,33 @@
+
+/* ! СВЕТОФОР */
+body{
+    background: #1d1d1d;
+}
+.traffic-light{
+    width: 300px;
+    height: 800px;
+    background: #000;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.red{
+    background: #ccc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}.yellow{
+    background: #ccc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}.green{
+    background: #ccc;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
